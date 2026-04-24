@@ -1,9 +1,0 @@
-namespace Telegram.Native.Media
-{
-    [default_interface]
-    runtimeclass AsyncMediaPlayerDurationChangedEventArgs 
-    {
-        AsyncMediaPlayerDurationChangedEventArgs(Double duration);
-        Double Duration;
-    }
-}
